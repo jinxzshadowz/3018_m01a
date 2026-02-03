@@ -1,3 +1,14 @@
+/**
+ * Calculates the performance of a investment portfolio.
+ * 
+ * @param initialInvestment - The starting value of the portfolio.
+ * @param currentValue - The current value of the portfolio.
+ * @returns An object containing profit/loss, percentage change, and a performance summary.
+ * 
+ * This function is used by the /portfolio/performance endpoint and is tested
+ * through both unit tests and intergration tests.
+ */
+
 export interface portfolioPerformance {
   initialInvestment: number;
   currentValue: number;
