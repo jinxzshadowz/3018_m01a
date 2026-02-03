@@ -4,10 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "ts-node src/server.ts",
+    "dev": "ts-node-dev src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "test": "jest --passWithNoTests"
+    "test": "jest",
+    "lint": "echo \"No linting configured\""
   },
   "repository": {
     "type": "git",
