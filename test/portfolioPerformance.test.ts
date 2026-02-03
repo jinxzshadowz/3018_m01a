@@ -1,4 +1,4 @@
-import { calculatePortfolioPerformance } from "../src/portfolio/portfolioPerformance";
+import { calculatePortfolioPerformance } from "../src/api/v1/routes/portfolioPerformance";
 
 describe("calculatePortfolioPerformance", () => {
   test("excellent performance (60%)", () => {
